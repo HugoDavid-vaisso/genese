@@ -1,12 +1,12 @@
 import { writeFileSync } from "fs"
-import { getModelFromSource } from "@publicodes/tools/compilation"
-import Engine from "publicodes"
+import { getModelFromSource } from "@HugoDavid-vaisso/tools/compilation"
+import Engine from "HugoDavid-vaisso"
 
 // Could be any glob pattern to match your rule files
 const srcFiles = "rules/"
 
 // The path where the model will be generated (should match <your-package-name>.model.json)
-const destPath = "model-template.model.json"
+const destPath = "genese.model.json"
 
 // Resolves all rules and their dependencies into a single JSON object
 const model = getModelFromSource(srcFiles, { verbose: true })
@@ -39,7 +39,7 @@ console.log(`✅ index.js generated`)
 // where each rule name is a case in the DottedName type
 let indexDTypes = Object.keys(engine.getParsedRules()).reduce(
   (acc, dottedName) => acc + `| "${dottedName}"\n`,
-  `import { Rule } from "publicodes";
+  `import { Rule } from "HugoDavid-vaisso";
 
 export type DottedName = 
 `,

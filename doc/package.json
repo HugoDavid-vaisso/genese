@@ -1,21 +1,21 @@
 {
-  "name": "model-template-doc",
+  "name": "genese-doc",
   "type": "module",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://publicodes.github.io/model-template",
+  "homepage": "https://HugoDavid-vaisso.github.io/genese",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@publicodes/react-ui": "^1.4.0",
+    "@HugoDavid-vaisso/react-ui": "^1.4.0",
     "@types/node": "^16.18.46",
     "@types/react": "^18.2.21",
     "@types/react-dom": "^18.2.7",
     "@vitejs/plugin-react": "^4.2.1",
-    "publicodes": "^1.4.0",
+    "HugoDavid-vaisso": "^1.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-markdown": "^8.0.7",

@@ -1,14 +1,14 @@
 {
   "name": "genese",
   "version": "1.0.4",
-  "repository": "git@github.com:publicodes/genese.git",
-  "homepage": "https://github.com/publicodes/genese#readme",
+  "repository": "git@github.com:HugoDavid-vaisso/genese.git",
+  "homepage": "https://github.com/HugoDavid-vaisso/genese#readme",
   "description": "",
   "authors": [
     "Emile Rolley <emile.rolley@tuta.io>"
   ],
   "bugs": {
-    "url": "https://github.com/publicodes/genese/issues"
+    "url": "https://github.com/HugoDavid-vaisso/genese/issues"
   },
   "files": [
     "genese.model.json",

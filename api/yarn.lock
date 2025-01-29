@@ -75,9 +75,9 @@
     methods "^1.1.2"
     path-to-regexp "^6.2.1"
 
-"@publicodes/rest-api@^1.1.0":
+"@HugoDavid-vaisso/rest-api@^1.1.0":
   version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@publicodes/rest-api/-/rest-api-1.1.0.tgz#4fa8d9fa937dec4fae6a0725afb970f77a10c347"
+  resolved "https://registry.yarnpkg.com/@HugoDavid-vaisso/rest-api/-/rest-api-1.1.0.tgz#4fa8d9fa937dec4fae6a0725afb970f77a10c347"
   integrity sha512-9vaKcoxUkViSJZ6hFvJ2DqDc4j99SydF3jB8JIjZsFjWqBXJd4Ob57fsAWACB3mWfTt9BBmlOUJ0i6DGRC4rsQ==
   dependencies:
     "@koa/cors" "^3.4.3"
@@ -750,9 +750,9 @@ path-to-regexp@^6.1.0, path-to-regexp@^6.2.1:
   resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-6.2.1.tgz#d54934d6798eb9e5ef14e7af7962c945906918e5"
   integrity sha512-JLyh7xT1kizaEvcaXOQwOc2/Yhw6KZOvPf1S8401UyLk86CU79LN3vl7ztXGm/pZ+YjoyAJ4rxmHwbkBXJX+yw==
 
-publicodes@^1.1.0:
+HugoDavid-vaisso@^1.1.0:
   version "1.1.0"
-  resolved "https://registry.yarnpkg.com/publicodes/-/publicodes-1.1.0.tgz#afdd75d272a9a0b7b2e70c74c319789398f3cb19"
+  resolved "https://registry.yarnpkg.com/HugoDavid-vaisso/-/HugoDavid-vaisso-1.1.0.tgz#afdd75d272a9a0b7b2e70c74c319789398f3cb19"
   integrity sha512-oNcPXBi++960/O2mWGuXm7XGcvhc/M1NBrTmZXRwxk7xmN7+w6HFbH/IM9f04ByTXzIZRjrbDQN1uMqaQt7CnA==
 
 punycode@^2.1.0:
